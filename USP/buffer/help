@@ -1,0 +1,5 @@
+gcc vuln.c -o vuln -fno-stack-protector
+gcc vuln.c -o vuln -fno-stack-protector -m32
+
+gcc vuln.c -o vuln -fno-stack-protector -m32 -z execstack
+[sudo] gcc vuln.c -o vuln -fno-stack-protector -z execstack

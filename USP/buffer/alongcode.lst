@@ -1,0 +1,64 @@
+GAS LISTING /tmp/ccMPBOso.s 			page 1
+
+
+   1              		.file	"post.c"
+   2              		.text
+   3              	.Ltext0:
+   4              		.section	.rodata
+   5              	.LC0:
+   6 0000 256400   		.string	"%d"
+   7              		.text
+   8              		.globl	main
+  10              	main:
+  11              	.LFB0:
+  12              		.file 1 "post.c"
+   1:post.c        **** #include <stdio.h>
+   2:post.c        **** 
+   3:post.c        **** int main()
+   4:post.c        **** {
+  13              		.loc 1 4 0
+  14              		.cfi_startproc
+  15 0000 55       		pushq	%rbp
+  16              		.cfi_def_cfa_offset 16
+  17              		.cfi_offset 6, -16
+  18 0001 4889E5   		movq	%rsp, %rbp
+  19              		.cfi_def_cfa_register 6
+  20 0004 4883EC10 		subq	$16, %rsp
+   5:post.c        **** 	int i = 1;
+  21              		.loc 1 5 0
+  22 0008 C745FC01 		movl	$1, -4(%rbp)
+  22      000000
+   6:post.c        **** 
+   7:post.c        **** 	printf ("%d", i++ + i++);
+  23              		.loc 1 7 0
+  24 000f 8B55FC   		movl	-4(%rbp), %edx
+  25 0012 8D4201   		leal	1(%rdx), %eax
+  26 0015 8945FC   		movl	%eax, -4(%rbp)
+  27 0018 8B45FC   		movl	-4(%rbp), %eax
+  28 001b 8D4801   		leal	1(%rax), %ecx
+  29 001e 894DFC   		movl	%ecx, -4(%rbp)
+  30 0021 01D0     		addl	%edx, %eax
+  31 0023 89C6     		movl	%eax, %esi
+  32 0025 BF000000 		movl	$.LC0, %edi
+  32      00
+  33 002a B8000000 		movl	$0, %eax
+  33      00
+  34 002f E8000000 		call	printf
+  34      00
+   8:post.c        **** }
+  35              		.loc 1 8 0
+  36 0034 C9       		leave
+  37              		.cfi_def_cfa 7, 8
+  38 0035 C3       		ret
+  39              		.cfi_endproc
+  40              	.LFE0:
+  42              	.Letext0:
+GAS LISTING /tmp/ccMPBOso.s 			page 2
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 post.c
+     /tmp/ccMPBOso.s:10     .text:0000000000000000 main
+
+UNDEFINED SYMBOLS
+printf

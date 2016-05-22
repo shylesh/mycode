@@ -1,0 +1,10 @@
+******************************************
+where to put definitions  and declarations
+******************************************
+Declaration ----> Header file
+Definition -----> .cpp file
+
+putting the definition of a funtion in class declaration make it inline
+
+
+

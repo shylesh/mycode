@@ -1,0 +1,82 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CHECK_LIST_EMPTY	list.c	16;"	d	file:
+CHECK_LIST_EMPTY	temp/list.c	16;"	d	file:
+CHECK_MAGIC	list.c	10;"	d	file:
+CHECK_MAGIC	temp/list.c	10;"	d	file:
+Cur	list.h	44;"	d
+Data	list.h	55;"	d
+Dir	list.h	48;"	d
+FORWARD	list.h	24;"	d
+First	list.h	42;"	d
+LIST	list.h	/^}LIST;$/;"	t	typeref:struct:__anon1
+L_EMPTY	list.h	32;"	d
+L_FAIL	list.h	31;"	d
+L_GEN_FAIL	list.h	36;"	d
+L_ILLEGAL	list.h	33;"	d
+L_NOT_READ	list.h	34;"	d
+L_NO_MORE	list.h	35;"	d
+L_SUCCESS	list.h	30;"	d
+Last	list.h	43;"	d
+MAGIC	list.c	7;"	d	file:
+MAGIC	temp/list.c	7;"	d	file:
+MAX	app.c	7;"	d	file:
+MAX	app1.c	7;"	d	file:
+MAX	listapp.c	15;"	d	file:
+Magic	list.h	47;"	d
+Next	list.h	53;"	d
+Nitems	list.h	45;"	d
+Ntrans	list.h	46;"	d
+Prev	list.h	54;"	d
+REVERSE	list.h	25;"	d
+Size	list.h	49;"	d
+Xflag	list.h	50;"	d
+current	list.h	/^	struct node *current;$/;"	m	struct:__anon1	typeref:struct:__anon1::node
+data	list.h	/^	char data[1];$/;"	m	struct:node
+dir	list.h	/^	int dir;$/;"	m	struct:__anon1
+do_list_append	app.c	/^int do_list_append(LIST *ld, char *ele)$/;"	f
+do_list_append	app1.c	/^int do_list_append(LIST *ld, char *ele)$/;"	f
+do_list_del	app.c	/^int do_list_del(LIST *ld)$/;"	f
+do_list_del	app1.c	/^int do_list_del(LIST *ld)$/;"	f
+do_list_open	app.c	/^LIST * do_list_open(int size) {$/;"	f
+do_list_open	app1.c	/^LIST * do_list_open(int size) {$/;"	f
+do_read_next	app.c	/^int do_read_next(LIST *ld, char *ele)$/;"	f
+do_read_next	app1.c	/^int do_read_next(LIST *ld, char *ele)$/;"	f
+do_read_prev	app.c	/^int do_read_prev (LIST *ld, char *ele)$/;"	f
+do_read_prev	app1.c	/^int do_read_prev (LIST *ld, char *ele)$/;"	f
+first	list.h	/^	struct node *first;$/;"	m	struct:__anon1	typeref:struct:__anon1::node
+last	list.h	/^	struct node *last;$/;"	m	struct:__anon1	typeref:struct:__anon1::node
+list_append	list.c	/^list_append (LIST *ld, char *ele)$/;"	f
+list_append	temp/list.c	/^list_append (LIST *ld, char *ele)$/;"	f
+list_close	list.c	/^list_close (LIST *ld)$/;"	f
+list_close	temp/list.c	/^list_close (LIST *ld)$/;"	f
+list_del	list.c	/^list_del (LIST *ld) $/;"	f
+list_del	temp/list.c	/^list_del (LIST *ld) $/;"	f
+list_empty	list.h	57;"	d
+list_open	list.c	/^list_open (int size) $/;"	f
+list_open	temp/list.c	/^list_open (int size) $/;"	f
+magic	list.h	/^	long magic;$/;"	m	struct:__anon1
+main	app.c	/^int main()$/;"	f
+main	app1.c	/^int main()$/;"	f
+main	listapp.c	/^int main() $/;"	f
+next	list.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+nitems	list.h	/^	int nitems;$/;"	m	struct:__anon1
+node	list.h	/^struct node{$/;"	s
+ntrans	list.h	/^	int ntrans;$/;"	m	struct:__anon1
+ntransactions	list.h	58;"	d
+prev	list.h	/^	struct node *prev;$/;"	m	struct:node	typeref:struct:node::node
+read_first	list.c	/^read_first (LIST *ld, char *ele)$/;"	f
+read_first	temp/list.c	/^read_first (LIST *ld, char *ele)$/;"	f
+read_last	list.c	/^read_last (LIST *ld, char *ele)$/;"	f
+read_last	temp/list.c	/^read_last (LIST *ld, char *ele)$/;"	f
+read_next	list.c	/^read_next (LIST *ld, char *ele)$/;"	f
+read_next	temp/list.c	/^read_next (LIST *ld, char *ele)$/;"	f
+read_prev	list.c	/^read_prev (LIST *ld, char *ele)$/;"	f
+read_prev	temp/list.c	/^read_prev (LIST *ld, char *ele)$/;"	f
+reset_transferred	list.h	59;"	d
+size	list.h	/^	int size;$/;"	m	struct:__anon1
+xfer_flag	list.h	/^	int xfer_flag;$/;"	m	struct:__anon1

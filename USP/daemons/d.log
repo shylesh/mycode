@@ -1,0 +1,8 @@
+[Jan 21 2014 23:42:53]:stop
+[Jan 21 2014 23:42:53]:from main[Jan 21 2014 23:42:53]:child 1exiting
+[Jan 21 2014 23:42:53]:starting worker
+[Jan 21 2014 23:42:53]:parent exiting
+[Jan 21 2014 23:42:53]:recieved sighup
+[Jan 21 2014 23:42:53]:stop
+[Jan 21 2014 23:42:53]:recieved sighup
+[Jan 21 2014 23:42:53]:start

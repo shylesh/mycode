@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int find_len (const char *ptr);
+
+struct sdstr {
+	long len;
+	long free;
+	char buf[];
+};
+
+int main()
+{
+	struct sdstr s1;
+	s1.len = 10;
+	s1.free = 0;
+	s1.buf = (char *) malloc (5);
+
+	find_len (s1.buf);
+
+}
+
+int
+find_len (const char *ptr)
+{
+	struct sdstr *s2;
+
+	s2 = (void *) (ptr - (sizeof(struct sdstr)));
+
+	print s2->len;
+
+
+
+}
+

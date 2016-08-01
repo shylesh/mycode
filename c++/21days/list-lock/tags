@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+c	simple_list.cc	/^	char c;$/;"	m	struct:info	file:
+i	list.h	/^	int i;$/;"	m	struct:info
+i	simple_list.cc	/^	int i;$/;"	m	struct:info	file:
+ilist	list.h	/^		std::list<struct info *> ilist;$/;"	m	class:mylist
+info	list.h	/^struct info {$/;"	s
+info	simple_list.cc	/^struct info {$/;"	s	file:
+insert_list	list.h	/^void mylist::insert_list(struct info *iptr)$/;"	f	class:mylist
+j	list.h	/^	char j;$/;"	m	struct:info
+main	list_cl.cc	/^int main()$/;"	f
+main	simple_list.cc	/^int main()$/;"	f
+mylist	list.h	/^class mylist {$/;"	c
+rem_list	list.h	/^void mylist::rem_list()$/;"	f	class:mylist
+walk	list.h	/^void mylist::walk()$/;"	f	class:mylist
